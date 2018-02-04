@@ -49,6 +49,8 @@ $element.createTable();
 $element.createLink();
 $element.createDropDown();
 $element.createCanvas();
+$element.createLabel();
+$element.createList();
 
 $element.render($object);
 ```
