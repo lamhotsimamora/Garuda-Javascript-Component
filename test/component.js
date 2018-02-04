@@ -181,7 +181,7 @@ $getDataUser.request($=>{
 		*/
 	 $element.init({
 			id       : id_element.f,
-			class    :'table-responsive',
+			class    : 'table',
 			field    : [ 'No','Name','Email','Foto' ],
 			data     : dataUser
 		});
