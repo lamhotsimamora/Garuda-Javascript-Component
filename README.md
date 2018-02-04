@@ -16,7 +16,7 @@ https://lamhotsimamora.github.io/Garuda-Javascript-Component/
 
 
 ### Features
-- Auto create id of element
+- Automatically create id of element to be object
 - Multiple create element
 - Fast and Easy Syntax
 
