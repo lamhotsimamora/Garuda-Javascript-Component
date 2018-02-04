@@ -1,5 +1,5 @@
 /**
- * License : 
+ * License : https://raw.githubusercontent.com/lamhotsimamora/Garuda-Javascript-Component/master/LICENSE
  * Author  : @lamhotsimamora
  * {{ Garuda Javascript 2 Component }}
  * Copyright@2018
