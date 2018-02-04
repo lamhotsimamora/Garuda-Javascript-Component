@@ -1,5 +1,5 @@
 # Garuda-Javascript-Component
-
+This library need CDN of Garuda Javascript https://www.cdn.lamhotsimamora.com/garuda2/
 
 ## Demo
 https://lamhotsimamora.github.io/Garuda-Javascript-Component/
