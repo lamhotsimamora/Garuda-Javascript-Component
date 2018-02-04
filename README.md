@@ -21,6 +21,10 @@ https://lamhotsimamora.github.io/Garuda-Javascript-Component/
 
 ### Syntax , Properties & Method
 ```
+$app = __({
+  el:'app'
+});
+
 $element = new GarudaComponent();
 
 $element.init({
@@ -51,7 +55,7 @@ $element.createCanvas();
 $element.createLabel();
 $element.createList();
 
-$element.render($object);
+$element.render($app);
 ```
 ### Example 
 #### https://codepen.io/lamhot/pen/payRdw?editors=1010
