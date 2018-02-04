@@ -36,6 +36,7 @@ $element.init({
    width        :  Int,
    height       :  Int,
    href         :  String,
+   space        :  String,
    custom       :  String,
    field        :  Array,
    data         :  Array
