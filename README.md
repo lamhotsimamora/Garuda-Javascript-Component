@@ -38,8 +38,8 @@ $element.init({
    href         :  String,
    space        :  String,
    custom       :  String,
-   field        :  Array,
-   data         :  Array
+   field        :  Single Array,
+   data         :  Multiple Array
 });
 
 $element.createInput();
