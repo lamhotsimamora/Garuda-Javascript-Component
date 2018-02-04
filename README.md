@@ -25,7 +25,7 @@ https://lamhotsimamora.github.io/Garuda-Javascript-Component/
 $element = new GarudaComponent();
 
 $element.init({
-   id 		 	 :  String/Int,
+   id 		:  String/Int,
    placeholder  :  String,
    class        :  String,
    type         :  String,
