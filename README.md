@@ -2,7 +2,7 @@
 
 
 ## Demo
-
+https://lamhotsimamora.github.io/Garuda-Javascript-Component/
 
 ### Easy create element like input , combobox, radio , button, table, dropdown, and image
 
