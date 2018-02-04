@@ -50,3 +50,8 @@ $element.createDropDown();
 
 $element.render($object);
 ```
+### Example 
+#### https://codepen.io/lamhot/pen/payRdw?editors=1010
+#### https://codepen.io/lamhot/pen/RQaKxX?editors=1010
+#### https://codepen.io/lamhot/pen/BYKprK
+#### https://codepen.io/lamhot/pen/XZdpYY?editors=1010
