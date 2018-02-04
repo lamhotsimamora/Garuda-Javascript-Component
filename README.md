@@ -48,6 +48,7 @@ $element.createImage();
 $element.createTable();
 $element.createLink();
 $element.createDropDown();
+$element.createCanvas();
 
 $element.render($object);
 ```

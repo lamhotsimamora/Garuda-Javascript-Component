@@ -18,7 +18,8 @@ const id_element = {
   e:'img_user',
   f:'t_data',
   g:'a_link',
-  h:'my_colors'
+  h:'my_colors',
+  i:'my_canvas'
 };
 
 // =========================================================================================
@@ -132,6 +133,18 @@ $element.init({
 });
 
 $element.createDropDown();
+
+/**
+ * Create Canvas
+ * @type {[type]}
+ */
+$element.init({
+  id       : id_element.i,
+  width    : 310,
+  height   : 30
+});
+
+$element.createCanvas();
 
 /**
 * Render all to $app
