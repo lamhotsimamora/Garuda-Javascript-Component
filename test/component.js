@@ -149,6 +149,7 @@ $element.createCanvas();
 /**
 * Render all to $app
 */
+ _writeLog($element.getHtml,false);
 $element.render($app);
 
 // =========================================================================================
@@ -178,7 +179,7 @@ $getDataUser.request($=>{
 		/**
 		* Create Table
 		*/
-	    $element.init({
+	 $element.init({
 			id       : id_element.f,
 			class    :'table',
 			field    : [ 'No','Name','Email','Foto' ],
@@ -189,6 +190,7 @@ $getDataUser.request($=>{
 		/**
 		 * Render to $app_table
 		 */
+    _writeLog($element.getHtml,false);
 		$element.render($app_table);
 });
 
