@@ -9,15 +9,15 @@ https://lamhotsimamora.github.io/Garuda-Javascript-Component/
 
 ### Features
 - Auto create id of element
-- Multiple component
-- Fast and Easy
+- Multiple create element
+- Fast and Easy Syntax
 
 ### Syntax , Properties & Method
 ```
 $element = new GarudaComponent();
 
 $element.init({
-   id 		 	:  String/Int,
+   id 		 	 :  String/Int,
    placeholder  :  String,
    class        :  String,
    type         :  String,
