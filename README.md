@@ -40,6 +40,7 @@ $element.init({
    readonly     :  String,
    autocomplete :  String,
    content      :  String,
+   style        :  String,
    name         :  String,
    for          :  String,
    src          :  String,
@@ -62,6 +63,7 @@ $element.createDropDown();
 $element.createCanvas();
 $element.createLabel();
 $element.createList();
+$element.createP();
 $element.createDiv();
 $element.hasDiv();
 
