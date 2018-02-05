@@ -6,6 +6,7 @@ $app_table = __({
   el:"app-table"
 });
 
+
 /**
  * Collect all id in array
  * @type {Object}
@@ -74,7 +75,7 @@ $element.init({
    id 		    	:  id_element.d,
    class        :  'btn btn-primary btn-md',
    type         :  'button',
-   value  	    :  'Login'
+   content  	  :  'Login'
 });
 
 $element.createButton();
@@ -86,7 +87,7 @@ $element.createButton();
 $element.init({
    id 		 	    :  id_element.g,
    href         :  '#logout',
-   value  	    :  'Logout',
+   content  	  :  'Logout',
    space        :  '<hr>'
 });
 
@@ -149,7 +150,7 @@ $element.createCanvas();
 /**
 * Render all to $app
 */
- _writeLog($element.getHtml,false);
+ //_writeLog($element.getHtml,false);
 $element.render($app);
 
 // =========================================================================================
@@ -190,10 +191,48 @@ $getDataUser.request($=>{
 		/**
 		 * Render to $app_table
 		 */
-    _writeLog($element.getHtml,false);
+   // _writeLog($element.getHtml,false);
 		$element.render($app_table);
 });
 
 // =========================================================================================
 
 
+
+$new_element = new GarudaComponent();
+
+
+$new_element.init({
+  id:'my_link_profile',
+  href:'#profile',
+  content:'Profile'
+});
+
+
+$new_element.createLink();
+
+$new_element.init({
+  id:'my_link_logout',
+  href:'#logout',
+  content:'Logout',
+  space:'<hr>'
+});
+
+$new_element.createLink();
+
+$new_element.init({
+  id:'btn_sign_up',
+  content:'Sign Up',
+  class:'btn btn-primary btn-md',
+  name:'Button Sign Up'
+});
+
+$new_element.createButton();
+
+$new_element.hasDiv({
+  id:'my_div',
+  class:'container',
+  name:'DIV Logout'
+});
+
+$new_element.render('app-last');

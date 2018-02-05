@@ -29,12 +29,14 @@ $app = __({
 $element = new GarudaComponent();
 
 $element.init({
-   id 		:  String/Int,
+   id 		    :  String/Int,
    placeholder  :  String,
    class        :  String,
    type         :  String,
    value        :  String,
+   content      :  String,
    name         :  String,
+   for          :  String,
    src          :  String,
    alt          :  String,
    width        :  Int,
@@ -55,6 +57,8 @@ $element.createDropDown();
 $element.createCanvas();
 $element.createLabel();
 $element.createList();
+$element.createDiv();
+$element.hasDiv();
 
 $element.render($app);
 ```
