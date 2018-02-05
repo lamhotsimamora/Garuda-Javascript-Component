@@ -34,6 +34,11 @@ $element.init({
    class        :  String,
    type         :  String,
    value        :  String,
+   min          :  String/Int,
+   max          :  String/Int,
+   maxlength    :  String/Int,
+   readonly     :  String,
+   autocomplete :  String,
    content      :  String,
    name         :  String,
    for          :  String,
@@ -45,7 +50,7 @@ $element.init({
    space        :  String,
    custom       :  String,
    field        :  Single Array,
-   data         :  Multiple Array
+   data         :  Single / Multiple Array
 });
 
 $element.createInput();
