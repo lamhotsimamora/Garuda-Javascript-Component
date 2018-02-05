@@ -2,6 +2,7 @@
 This library need CDN of Garuda Javascript 2 https://www.cdn.lamhotsimamora.com/garuda2/
 
 ## CDN Garuda Javascript Component
+https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript-Component/master/src/garuda-component.js
 https://www.cdn.lamhotsimamora.com/garuda-component/
 
 ## Full script
