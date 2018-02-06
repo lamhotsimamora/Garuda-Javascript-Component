@@ -38,6 +38,8 @@ $element.init({
    min          :  String/Int,
    max          :  String/Int,
    maxlength    :  String/Int,
+   rows         :  String/Int,
+   cols         :  String/Int,
    readonly     :  String,
    autocomplete :  String,
    content      :  String,
@@ -66,6 +68,7 @@ $element.createLabel();
 $element.createList();
 $element.createP();
 $element.createDiv();
+$element.createTextArea();
 $element.hasDiv();
 
 $element.render($app);
